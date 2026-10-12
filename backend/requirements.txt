@@ -1,0 +1,7 @@
+flask>=3.0
+flask-cors>=4.0
+pymongo>=4.6
+pyjwt>=2.8
+requests>=2.31
+python-dotenv>=1.0
+mongomock>=4.1   # only for quick local testing (MONGO_URI=mock)

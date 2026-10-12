@@ -1,0 +1,52 @@
+import {
+  BarChart3,
+  BookOpen,
+  Brain,
+  CalendarClock,
+  CalendarDays,
+  FileText,
+  GraduationCap,
+  History,
+  Image,
+  LayoutDashboard,
+  Layers,
+  ListChecks,
+  MessageSquare,
+  Mic,
+  Settings,
+  Sparkles,
+  StickyNote,
+  User,
+  Users,
+} from "lucide-react";
+import type { NavItem } from "./AppShell";
+
+export const learnerNav: NavItem[] = [
+  { label: "Dashboard", to: "/learn", icon: LayoutDashboard },
+  { label: "AI Tutor", to: "/learn/tutor", icon: Brain },
+  { label: "Documents", to: "/learn/documents", icon: FileText },
+  { label: "PDF Chat", to: "/learn/pdf-chat", icon: MessageSquare },
+  { label: "Notes", to: "/learn/notes", icon: StickyNote },
+  { label: "Flashcards", to: "/learn/flashcards", icon: Layers },
+  { label: "Quiz", to: "/learn/quiz", icon: ListChecks },
+  { label: "Voice Tutor", to: "/learn/voice", icon: Mic },
+  { label: "Image Question", to: "/learn/image", icon: Image },
+  { label: "Study Planner", to: "/learn/planner", icon: CalendarDays },
+  { label: "Revision", to: "/learn/revision", icon: CalendarClock },
+  { label: "Analytics", to: "/learn/analytics", icon: BarChart3 },
+  { label: "Recommendations", to: "/learn/recommendations", icon: Sparkles },
+  { label: "Chat History", to: "/learn/history", icon: History },
+  { label: "Profile", to: "/learn/profile", icon: User },
+  { label: "Settings", to: "/learn/settings", icon: Settings },
+];
+
+export const institutionNav: NavItem[] = [
+  { label: "Dashboard", to: "/institution", icon: LayoutDashboard },
+  { label: "Students", to: "/institution/students", icon: Users },
+  { label: "Teachers", to: "/institution/teachers", icon: GraduationCap },
+  { label: "Courses", to: "/institution/courses", icon: BookOpen },
+  { label: "Materials", to: "/institution/materials", icon: FileText },
+  { label: "Progress", to: "/institution/progress", icon: ListChecks },
+  { label: "Analytics", to: "/institution/analytics", icon: BarChart3 },
+  { label: "Settings", to: "/institution/settings", icon: Settings },
+];
